@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.popular:hover{
+opacity: 0.5;
+cursor: pointer;
+}
+
+.text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.categories:hover{
+    cursor:pointer;
+    color:lightgray;
+}
+
+.textarea{
+   width: 100%;
+   height: 100px;
+   padding: 12px 20px;
+   box-sizing: border-box;
+   border-radius: 4px;
+   font-size: 16px;
+   resize: none;
+   margin-top: 5px;
+}
+.textarea2{
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    margin: 7px;
+ }
+
+.side{
+    overflow-y: scroll;
+    height: 500px;
+}
+.blog:hover{
+    transform: translate(3px, 3px);
+}
